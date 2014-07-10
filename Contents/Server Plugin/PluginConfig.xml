@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<PluginConfig>
+
+  <!-- TODO verify this looks like a reasonable username -->
+  <Field id="username" type="textfield">
+    <Label>Username:</Label>
+  </Field>
+
+  <!-- TODO verify this looks like a reasonable password (e.g. non-empty) -->
+  <Field id="password" type="textfield" secure="true">
+    <Label>Password:</Label>
+  </Field>
+
+  <!-- TODO verify this looks like a reasonable server host or IP -->
+  <Field id="server" type="textfield" defaultValue="talk.google.com">
+    <Label>Server:</Label>
+  </Field>
+
+  <!-- TODO add validation that port is a number in the range 0-65535 -->
+  <Field id="port" type="textfield" defaultValue="5222">
+    <Label>Port:</Label>
+  </Field>
+
+  <!--
+  <Field id="sep1" type="separator" />
+
+	<Field type="checkbox" id="debug">
+		<Label>Enable debugging:</Label>
+		<Description>(for advanced users only)</Description>
+	</Field>
+  -->
+</PluginConfig>
